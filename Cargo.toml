@@ -1,0 +1,9 @@
+[package]
+name = "bench-getundo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bitcoin = "0.32.6"
+bitcoin_slices = { version = "0.10.0", features = ["bitcoin"] }
+ureq = "3.0.11"
